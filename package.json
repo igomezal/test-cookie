@@ -1,0 +1,27 @@
+{
+  "name": "test-cookie",
+  "version": "0.0.0",
+  "description": "Webcomponent test-cookie following open-wc recommendations",
+  "author": "test-cookie",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
+    "test": "karma start --coverage",
+    "test:watch": "karma start --auto-watch=true --single-run=false",
+    "test:update-snapshots": "karma start --update-snapshots",
+    "test:prune-snapshots": "karma start --prune-snapshots"
+  },
+  "dependencies": {
+    "lit-html": "^1.1.2",
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^2.5.4",
+    "@open-wc/testing-karma": "^3.2.43",
+    "deepmerge": "^4.2.2",
+    "es-dev-server": "^1.23.0",
+    "karma": "^4.4.1"
+  }
+}
