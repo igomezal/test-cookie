@@ -19,9 +19,9 @@
   },
   "devDependencies": {
     "@open-wc/testing": "^2.5.4",
-    "@open-wc/testing-karma": "^3.2.43",
+    "@open-wc/testing-karma": "^4.0.5",
     "deepmerge": "^4.2.2",
     "es-dev-server": "^1.23.0",
-    "karma": "^4.4.1"
+    "karma": "^5.2.2"
   }
 }
